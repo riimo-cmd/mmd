@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=M+PLUS+1:wght@100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap");
+body {
+  background-color: rebeccapurple;
+  background: linear-gradient(238deg, #833ab4 0%, #c049ca 33%, #833ab4 100%);
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+main {
+  grid-column: 2/5;
+}
+
+section, footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  border-radius: 2em;
+  border: .1em solid #cb90d1;
+  background-color: rgba(234, 210, 234, 0.1);
+  background: linear-gradient(180deg, rgba(253, 225, 255, 0.403974) 0%, rgba(255, 255, 255, 0.471201) 20%, rgba(253, 246, 255, 0.126663) 33%, rgba(253, 225, 255, 0.3) 100%);
+  padding: 1em;
+  margin: 1em 0;
+  font-size: 1.2em;
+}
+
+h2 {
+  margin: 0;
+  grid-column: 1/4;
+  background: linear-gradient(33deg, #833ab4, #41176a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2em;
+}
+
+h3 {
+  grid-row: 2/3;
+  grid-column: 1/4;
+  margin: 0;
+  font-family: "M PLUS 1", serif;
+  font-size: 1.5em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+  grid-column: 2/4;
+}
+
+li {
+  padding-top: .3em;
+}
+
+a {
+  color: #55245a;
+  text-decoration-style: wavy;
+}
+
+a :visited, a :active {
+  color: #8e2498;
+}
+
+aside {
+  display: inline;
+  max-width: 75ch;
+  min-width: 40ch;
+}
+
+footer p {
+  grid-column: 1/4;
+  margin: .3em;
+}
+
+q {
+  background: linear-gradient(13deg, #230c33, #41176a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  background: linear-gradient(13deg, #230c33, #41176a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#kiyomi img {
+  filter: drop-shadow(0.4em -0.125em 1em rebeccapurple);
+  grid-column: 1/2;
+}
+
+#kiyomi img ::selection {
+  filter: drop-shadow(0px 0px 0px #41176a);
+}
+
+#ran img {
+  filter: drop-shadow(0.4em -0.125em 1em #f8bce2);
+  grid-column: 1/2;
+}
+
+#ran img ::selection {
+  filter: drop-shadow(0px 0px 0px #41176a);
+}
+
+#aya img {
+  filter: drop-shadow(0.4em -0.125em 1em #8f42db);
+  grid-column: 1/2;
+}
+
+#aya img ::selection {
+  filter: drop-shadow(0px 0px 0px #41176a);
+}
+
+::-webkit-scrollbar {
+  width: 0em;
+}
